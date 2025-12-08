@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+#outerbox {
+    width:100px;
+    height:100px;
+    margin: 4px;
+    align-content: center;
+    border: 3px ridge black;
+    border-radius: 15%;
+    background-color: red;
+    @media (max-width:300px){
+        background-color: green;
+    }
+    @media (min-width:300px) and (max-width:400px){
+        background-color: pink;
+    }
+    @media (min-width:600px){
+        background-color: blue;
+    }
+}
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    align-items: center;
+    bottom:0;
+}
