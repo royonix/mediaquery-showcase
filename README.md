@@ -19,7 +19,7 @@ style.css
 
 + Clone the repo:
 ```
-git clone <repo-link>
+git clone https://github.com/royonix/mediaquery-showcase.git
 ```
 - Open index.html in your browser.
 * Resize the window to see the responsive behavior.
